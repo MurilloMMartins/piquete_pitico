@@ -1,6 +1,7 @@
 # Hackathon Semcomp 2023
 ## Piquete Pitico
-O nosso grupo buscou integrar as ferramentas da Cohere para aumentar a conexão do público geral com a música. 
+### Temática
+O nosso grupo buscou integrar as ferramentas da **Cohere** para aumentar a conexão do público geral com a **música**. 
 Para isso, decidiu-se fazer uma forma de receber sugestões de músicas dada uma foto. Entendemos que esse tema tem um impacto grande em um público diverso, seja ele:
 
 * Um casal que deseja ter uma playlist literalmente à sua cara.
