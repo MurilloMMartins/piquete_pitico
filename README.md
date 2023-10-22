@@ -20,6 +20,8 @@ Para que realizar esse projeto seja possível, é inprescindível a ajuda da Coh
    *  Utilizamos a API da Cohere para geração de embeddings de 5000 músicas que consideram a letra e as características das músicas.
 3. Geração de descrição de imagem
    * Fez-se o uso de outros algoritmos que realizam funções de Legenda e Detecção de Emoções para descrição textual da imagem.
+   * Artigo sobre Legenda de Imagens: [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086)
+   * Artigo sobre Detecção de Emoções em Imagens: [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)
 4. Gerar os embeddings da imagem
    * Usando a descrição da imagem obtida no passo 3 e o endpoint de Embed da Cohere foi possível gerar a descrição vetorial da figura.
 5. Nearest Neighbors Search (NNS)
