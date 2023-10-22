@@ -32,6 +32,9 @@ Para que realizar esse projeto seja possível, é inprescindível a ajuda da Coh
   
 ### Utilização
 A partir do input "arafed group of people posing for a selfie at a formal event  feeling: happy" da foto de Ellen DeGeneres no Oscar
+
 ![image](image.jpg)
+
 obtemos as seguintes recomendações
+
 ![image](example.png)
