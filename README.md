@@ -9,7 +9,7 @@ Para isso, decidiu-se fazer uma forma de receber sugestões de músicas dada uma
 * Um grupo de amigos que gostariam de complementar o registro de um momento especial com músicas.
 * Uma pessoa desejar realizar um post no Instagram com um par perfeito de música e foto.
 
-# Solução
+### Solução
 Para que realizar esse projeto seja possível, é inprescindível a ajuda da Cohere com a disponibilidade de suas ferramentas. Com isso em mente, o nosso projeto constituiu das seguintes etapas:
 1. Coletar uma boa quantidade de músicas e imagens
    * Utilizamos o dataset [audio features and lyrics of spotify songs](https://www.kaggle.com/datasets/imuhammad/audio-features-and-lyrics-of-spotify-songs) que além de nome e letras de 18000 músicas, contém também aspectos como danceability, energy, speechiness,	acousticness,	instrumentalness,	liveness, e	valence.
@@ -29,3 +29,9 @@ Para que realizar esse projeto seja possível, é inprescindível a ajuda da Coh
    * Utilizamos o algoritmo NNS com a biblioteca Annoy do Spotify para encontrar um ranking de músicas mais semelhantes a imagem obtida no passo anterior.
 6. Coletar melhores músicas
    * As menores distâncias representam as músicas que mais combinam com a imagem e, portanto, seriam as recomendadas.
+  
+### Utilização
+A partir do input "arafed group of people posing for a selfie at a formal event  feeling: happy" da foto de Ellen DeGeneres no Oscar
+![image](image.jpg)
+obtemos as seguintes recomendações
+![image](example.png)
