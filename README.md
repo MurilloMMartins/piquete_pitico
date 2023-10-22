@@ -13,7 +13,7 @@ Para isso, decidiu-se fazer uma forma de receber sugestões de músicas dada uma
 Para que realizar esse projeto seja possível, é inprescindível a ajuda da Cohere com a disponibilidade de suas ferramentas. Com isso em mente, o nosso projeto constituiu das seguintes etapas:
 1. Coletar uma boa quantidade de músicas e imagens
    * Utilizamos o dataset [audio features and lyrics of spotify songs](https://www.kaggle.com/datasets/imuhammad/audio-features-and-lyrics-of-spotify-songs) que além de nome e letras de 18000 músicas, contém também aspectos como danceability, energy, speechiness,	acousticness,	instrumentalness,	liveness, e	valence.
-   * Utilizamos algumas fotos com teste, algumas vindas do dataset [flickr image dataset](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) 
+   * Utilizamos algumas fotos com teste, algumas vindas do dataset [flickr image dataset](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset).
 2. Gerar os embeddings de um conjunto limitado de músicas
    *  Realiza-se uma filtragem pelo nível de popularidade, permitindo que apenas músicas mais conhecidas aparecerem na recomendação.
    *  É efetuado uma etapa de pré-processamento para selecionar características da música através de thresholds  (ex.: danceability > 0.5 implica na música ser dançavel).
@@ -21,7 +21,7 @@ Para que realizar esse projeto seja possível, é inprescindível a ajuda da Coh
 3. Geração de descrição de imagem
    * Fez-se o uso de outros algoritmos que realizam funções de Legenda e Detecção de Emoções para descrição textual da imagem.
 4. Gerar os embeddings da imagem
-   * Usando a descrição da imagem obtida no passo 1 e o endpoint de Embed da Cohere foi possível gerar a descrição vetorial da figura.
+   * Usando a descrição da imagem obtida no passo 3 e o endpoint de Embed da Cohere foi possível gerar a descrição vetorial da figura.
 5. Nearest Neighbors Search (NNS)
    * Plottar os embeddings das músicas para entender como as músicas se aproximam no espaço através de suas representações vetoriais.
    * Utilizamos o algoritmo NNS com a biblioteca Annoy do Spotify para encontrar um ranking de músicas mais semelhantes a imagem obtida no passo anterior.
