@@ -16,6 +16,7 @@ Para que realizar esse projeto seja possível, é inprescindível a ajuda da Coh
 3. Gerar os embeddings da imagem
    * Usando a descrição da imagem, completa com a emoção, e o endpoint de Embed da Cohere, foi possível gerar a descrição vetorial da figura.
 4. Gerar os embeddings de um conjunto limitado de músicas
+   *  Faz-se uma filtragem primeiramente pelo nível de popularidade, permitindo ou não músicas mais desconhecidas aparecerem na recomendação.
    *  Do continguente total, foram geradas embeddings de 5000 músicas que consideram a letra e as características, por exemplo danceability, das músicas.
    *  As caracteristicas estavam em valores decimais, o que pode trazer dificuldade ao modelo para processar. Para lidar com isso, fez-se um valor limitante para cada uma caracteristica que, acima dele, a música tem a presença dessa feature (ex.: danceability > 0.5 implica na música ser dançavel)
 5. Realizar uma Nearest Neighbors Search
