@@ -1,6 +1,7 @@
-# Proposta
-O nosso Piquete Pitico buscou integrar as ferramentas da Cohere com o público geral de forma que aumentasse a conexão desse com a música. 
-Para isso, decidiu-se fazer uma forma de receber sugestões de músicas dada uma foto. O porquê dessa escolha é por conta da temática do projeto ter um impacto grande e em um público diverso, seja entre ele:
+# Hackathon Semcomp 2023
+## Piquete Pitico
+O nosso grupo buscou integrar as ferramentas da Cohere para aumentar a conexão do público geral com a música. 
+Para isso, decidiu-se fazer uma forma de receber sugestões de músicas dada uma foto. Entendemos que esse tema tem um impacto grande em um público diverso, seja ele:
 
 * Um casal que deseja ter uma playlist literalmente à sua cara.
 * Uma pessoa que quer eternizar uma viagem com faixas nostálgicas.
