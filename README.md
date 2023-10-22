@@ -11,8 +11,9 @@ Para isso, decidiu-se fazer uma forma de receber sugestões de músicas dada uma
 
 # Solução
 Para que realizar esse projeto seja possível, é inprescindível a ajuda da Cohere com a disponibilidade de suas ferramentas. Com isso em mente, o nosso projeto constituiu das seguintes etapas:
-1. Coletar uma boa quantidade de músicas
+1. Coletar uma boa quantidade de músicas e imagens
    * Utilizamos o dataset [audio features and lyrics of spotify songs](https://www.kaggle.com/datasets/imuhammad/audio-features-and-lyrics-of-spotify-songs) que além de nome e letras de 18000 músicas, contém também aspectos como danceability, energy, speechiness,	acousticness,	instrumentalness,	liveness, e	valence.
+   * Utilizamos algumas fotos com teste, algumas vindas do dataset [flickr image dataset](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset) 
 2. Gerar os embeddings de um conjunto limitado de músicas
    *  Realiza-se uma filtragem pelo nível de popularidade, permitindo que apenas músicas mais conhecidas aparecerem na recomendação.
    *  É efetuado uma etapa de pré-processamento para selecionar características da música através de thresholds  (ex.: danceability > 0.5 implica na música ser dançavel).
